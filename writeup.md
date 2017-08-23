@@ -120,10 +120,14 @@ I thought some of the images would have been difficult to classify because the s
 
 I picked 5 random traffic sign images from pixbay. Some had to be cropped into a square pcture.
 
+#### Accuracy and confidence
+
 The model was able to correctly guess 5 out of 5 traffic signs, which gives an accuracy of 100% which is consistent with the validation results(95% accuracy,
 there is probably going to be no error on 5 random images).
 
 The model is way too secure of the results, this may be due to overfitting (acheiving a training accuracy of 100%, with a validation accuracy only around 95%)
+
+#### Visualization
 
 The network seems to pick up the shapes based on the highest color contrasts, for example it does not care if it is black on white or red on white.
 As it is rather susceptible to lighting differences.

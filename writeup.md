@@ -22,11 +22,12 @@ The goals / steps of this project are the following:
 [image1]: ./images/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./images/right-of-way-809137_640.jpg" "Traffic Sign 1"
-[image5]: ./images/stop-1591529_640.jpg "Traffic Sign 2"
-[image6]: ./images/work_in_progress.jpeg "Traffic Sign 3"
-[image7]: ./images/roundabout-1558430_640.jpg "Traffic Sign 4"
-[image8]: ./images/stop-705669_640.jpg "Traffic Sign 5"
+       
+[image4]: ./images/extra/resized_right_of.png "Traffic Sign 1"
+[image5]: ./images/resized_stop1.png "Traffic Sign 2"
+[image6]: ./images/resized_work.png "Traffic Sign 3"
+[image7]: ./images/resized_roundabout.png "Traffic Sign 4"
+[image8]: ./images/resized_stop2.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -133,7 +134,7 @@ I thought some of the images would have been difficult to classify because the s
 
 I picked 5 random traffic sign images from pixbay. Some had to be cropped into a square pcture.
 
-The model was able to correctly guess 5 out of 5 traffic signs, which gives an accuracy of 100% which is consistent with the validation results(94% accuracy,
+The model was able to correctly guess 5 out of 5 traffic signs, which gives an accuracy of 100% which is consistent with the validation results(95% accuracy,
 there is probably going to be no error on 5 random images).
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)

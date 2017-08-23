@@ -74,9 +74,9 @@ My final model consisted of the following layers:
 | RELU					|												|
 | Convolution 5x5     	| 2x2 stride,  outputs 3x3x48   				|
 | RELU					|												|
-| Fully connected		| 432, 250   									|
-| Fully connected		| 250, 150    									|
-| Fully connected		| 150, 43      									|
+| Fully connected		| 432, 200   									|
+| Fully connected		| 200, 100    									|
+| Fully connected		| 100, 43      									|
  
 the softmax is applied to the output afterwards
 
@@ -85,7 +85,7 @@ the softmax is applied to the output afterwards
 
 To train the model, I used an adam optimizer with cross-entropy as loss function.
 
-I set the number of epochs to 50, as the various iterations of the model seemed to yeld stable results at around this number.
+I initially set the number of epochs to 50, as the various iterations of the model seemed to yeld stable results at around this number but later settled for 30, which is enough for the current model.
 
 I set the batch size to 126, as higher numbers seemed to lead to worse results, while lower numbers made the process really slow.
 

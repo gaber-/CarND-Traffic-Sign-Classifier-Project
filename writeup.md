@@ -55,6 +55,8 @@ Here is an exploratory visualization of the data set. It shows how the data is n
 
 I created copies of the images of classes with a lower number of samples, this lead to better results even without using any agumentation techniques.
 
+I normalized the input values (from a range of 0-255 to 0-1)
+
 I tried adding random noise, shading the images or flipping them vertically, but that did not improve the results so I didn't use them.
 
 #### 2. Model

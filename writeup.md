@@ -120,7 +120,25 @@ Here are five German traffic signs that I found on the web:
 
 I thought some of the images would have been difficult to classify because the sign is seen at an angle, but the model classified them correctly.
 
+
 I picked 5 random traffic sign images from pixbay. Some had to be cropped into a square pcture.
+
+![alt text][image4]
+
+The first picture is taken at a weird angle, from below
+
+![alt text][image5]
+The second image has a background with some colors similar to the borders of the sign
+
+![alt text][image6]
+In the third image, once scaled, the "work in progress" symbol is hard to discern. It is also angled like the first image
+
+![alt text][image7]
+The fourth image is rather deformed (actually, that is due to the original image being rectangular, scaled down to a square), and the arrow signs are unrecognizable, so 
+I was wondering if the network would still do well with it.
+
+![alt text][image8]
+The last image has a light background, and the sign is not centered.
 
 #### Accuracy and confidence
 

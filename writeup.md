@@ -1,8 +1,8 @@
-#**Traffic Sign Recognition** 
+# **Traffic Sign Recognition** 
 
-##Writeup Template
+## Writeup Template
 
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
 
 ---
 
@@ -24,10 +24,10 @@ The goals / steps of this project are the following:
 [image3]: ./examples/random_noise.jpg "Random Noise"
        
 [image4]: ./images/extra/resized_right_of.png "Traffic Sign 1"
-[image5]: ./images/resized_stop1.png "Traffic Sign 2"
-[image6]: ./images/resized_work.png "Traffic Sign 3"
-[image7]: ./images/resized_roundabout.png "Traffic Sign 4"
-[image8]: ./images/resized_stop2.png "Traffic Sign 5"
+[image5]: ./images/extra/resized_stop1.png "Traffic Sign 2"
+[image6]: ./images/extra/resized_work.png "Traffic Sign 3"
+[image7]: ./images/extra/resized_roundabout.png "Traffic Sign 4"
+[image8]: ./images/extra/resized_stop2.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  

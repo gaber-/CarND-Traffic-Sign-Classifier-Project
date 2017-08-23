@@ -51,6 +51,9 @@ Here is an exploratory visualization of the data set. It shows how the data is n
 
 ![alt text][image1]
 
+Note: the training and validation sets seem to contain many pictures very similar to these in the training set (perhaps taken in the same spot with the same camera) this means that
+overfitting on the training set actually rises the test and validation scores without actually improving the recognition of generic traffic signs.
+
 ### Design and Test a Model Architecture
 
 I created copies of the images of classes with a lower number of samples, this lead to better results even without using any agumentation techniques.

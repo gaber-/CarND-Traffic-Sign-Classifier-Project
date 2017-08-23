@@ -113,6 +113,8 @@ The longest part was finding the right kernel sizes and depth:
 * and finally I changed the depth again, checking the feature map and results of the tests, trying to obtain the best result with the lowest depth
 
 The final results show that the model does overfit (the training accuracy is 100%, while the validation accuracy is around 95%), but the performance is still acceptable.
+As I mentioned on the dataset paragraph, however, the images on the training, test and validation sets may be similar enough that overfitting the model actually helps
+improving the scores, in fact the validation accuracy falls using regularization techniques.
 
 ### Test a Model on New Images
 
